@@ -3,7 +3,7 @@
 Our project aims to assist individuals in creating social media photos by generating images featuring their faces.
 
 You can watch demonstration video [here](https://drive.google.com/file/d/1Lxk5jLsxXJJOfkEsO-K_JyZHNIn1w6vW/view?usp=drive_link)
-and presentation [here](C:\Users\User\PycharmProjects\prompt_engineering\presentation.pdf).
+and presentation [here](\presentation.pdf).
 
 ### Team
 - Dmitry Shironosov - co-founder of the NymphLens project, prompt expert
@@ -16,18 +16,19 @@ and presentation [here](C:\Users\User\PycharmProjects\prompt_engineering\present
 
 ![img.png](img.png)
 
-[//]: # (My task)
+### My task
+
+Create a showcase of styles, on the basis of which photos would be generated. The style is a reference photo, positive and negative prompts, parameters: number of steps, sampler, denoising strength and cfg_scale.
+
+### Results
+1) A lot of experiments were conducted on checkpoints trained on different people, the structure of the prompta and its content changed. I came to the conclusion that it is not necessary to do them according to the same template, most often short flushes work more stable and better.
+
+2) A comparison of models was made: where more realistic and high-quality references are obtained. My favorites are epiCRealism, epiCPhotoGasm, RealDream.
+
+3) A women's showcase of 23 styles was made, the men's is now in the process of being finalized. Next, testing will be conducted on different people, unstable styles will be corrected.
+
 
 [//]: # (Hi! I am Nastya and I am in charge of the showcase of styles. My job is to find the best prompts and parameters for img2img generation using Stable Diffusion. I need to make sure that the generated photos are as similar to people as possible, so that our users can then post these photos on Instagram. This job is more mechanical and tedious than difficult. I've done a lot of experiments and prepared a women's showcase, now I'm starting to do men's. You can find more information in the presentation.)
-
-[//]: # ()
-[//]: # (Задача: сформировать витрину стилей, на основе которой генерировались бы фото. Стиль - это референсное фото, позитивный и негативный промпты, параметры: количество шагов, sampler, denoising strength и cfg_scale. )
-
-[//]: # (1&#41; Было проведено множество экспериментов на чекпоинтах, обученных на разных людях, менялась структура промпта и его содержание. Я пришла к выводу, что не обязательно их делать по одному шаблону, чаще всего короткие промпты работают стабильнее и лучше. )
-
-[//]: # (2&#41; Было произведено сравнение моделей: где получаются более реалистичные и качественные референсы. Мои фавориты - epiCRealism, epiCPhotoGasm, RealDream.)
-
-[//]: # (3&#41; Была сделана женская витрина из 23 стилей, мужская сейчас в процессе доработки. Далее будет проводиться тестирование на разных людях, нестабильные стили будут правиться.)
 
 [//]: # ()
 [//]: # (Грустно, что у меня не было доступа к коду, все-таки мою работу можно было несколько автоматизировать &#40;проект коммерческий, я к нему присоединилась&#41;. Потом выяснилось, что WebUI, где я работала, и код под капотом у бота, где прогонялся весь пайплайн, выдают несколько разные результаты, сейчас это чинят. )

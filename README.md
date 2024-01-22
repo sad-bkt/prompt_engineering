@@ -69,19 +69,22 @@ A lot of experiments were conducted on checkpoints trained on different people. 
 
 Experiments looks like:
 
+> Positive prompt for img2txt:
+> 
+> portrait of beautiful fashion model, ethereal dreamy foggy, photoshoot by Annie Leibovitz, editorial Fashion Magazine photoshoot, fashion poses, in front of gothic cathedral architecture, Kinfolk Magazine, Film Grain, a soft smile, transparent sleeves, pastel colors dress, perfect hands, perfect eyes
+
+
 > Positive prompt for img2img : 
 > 
 > ljz woman, portrait of beautiful fashion model, ethereal dreamy foggy, photoshoot by Annie Leibovitz, editorial Fashion Magazine photoshoot, fashion poses, in front of gothic cathedral architecture, Kinfolk Magazine, Film Grain, a soft smile, transparent long sleeves, pastel colors dress, perfect hands, perfect eyes
 
-> Positive prompt:
-> 
-> portrait of beautiful fashion model, ethereal dreamy foggy, photoshoot by Annie Leibovitz, editorial Fashion Magazine photoshoot, fashion poses, in front of gothic cathedral architecture, Kinfolk Magazine, Film Grain, a soft smile, transparent sleeves, pastel colors dress, perfect hands, perfect eyes
-
->Negative prompt:
+> Negative prompt:
 > 
 > naked, deformed, distorted, disfigured, poorly drawn, bad anatomy, wrong anatomy, bad hands, bad body, bad face, bad teeth, bad arms, bad legs, deformities, extra limb, missing limb, floating limbs, mutated hands and fingers, disconnected limbs, mutation, mutated, ugly, disgusting, blurry, amputation,  worst quality, low quality, normal quality, lowres, low details, oversaturated, undersaturated, overexposed, underexposed, grayscale, bw, bad photo, bad photography, bad art, watermark, signature, text font, username, error, logo, words, letters, digits, autograph, trademark, name, blur, blurry, grainy, morbid, ugly, asymmetrical, mutated malformed, mutilated, poorly lit, bad shadow, draft, cropped, out of frame, cut off, censored, jpeg artifacts, out of focus, glitch, duplicate, airbrushed, cartoon, anime, semi-realistic, cgi, render, blender, digital art, manga, amateur, 3D, 3D Game, 3D Game Scene, 3D Character
 
-| reference photo   ![img_17.png](img/img_17.png) | checkpoint1 ![img_4.png](img/img_4.png) | checkpoint2 ![img_5.png](img/img_5.png) | checkpoint3 ![img_22.png](img/img_22.png) | checkpoint4     ![img_32.png](img/img_32.png) | checkpoint5 ![img_33.png](img/img_33.png) |
+"ljz" is a token associated with a person. Training was conducted using the DreamBooth technique.
+
+| reference   ![img_17.png](img/img_17.png) | checkpoint1 ![img_4.png](img/img_4.png) | checkpoint2 ![img_5.png](img/img_5.png) | checkpoint3 ![img_22.png](img/img_22.png) | checkpoint4     ![img_32.png](img/img_32.png) | checkpoint5 ![img_33.png](img/img_33.png) |
 |---------------------------------------------|-------------------------------------|-------------------------------------|---------------------------------------|-------------------------------------------|---------------------------------------|
 | ![img_17.png](img/img_17.png)                   | ![img_31.png](img/img_31.png)           | ![img_27.png](img/img_27.png)           | ![img_28.png](img/img_28.png)             | ![img_29.png](img/img_29.png)                 | ![img_30.png](img/img_30.png)             | 
 

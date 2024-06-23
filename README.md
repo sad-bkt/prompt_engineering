@@ -5,7 +5,7 @@ Our project aims to assist individuals in creating social media photos by genera
 ![img_3.png](img/img_3.png)
 
 You can watch demonstration video [here](https://drive.google.com/file/d/1Lxk5jLsxXJJOfkEsO-K_JyZHNIn1w6vW/view?usp=drive_link)
-and presentation [here](/presentation.pdf).
+and presentation [here](/presentation.pdf) ([new presentation](https://github.com/sad-bkt/photo_generation/blob/main/Presentation.pdf)).
 
 ## Team
 - Dmitry Shironosov - co-founder of the NymphLens project, prompt expert
@@ -13,10 +13,6 @@ and presentation [here](/presentation.pdf).
 - Alexander Shironosov - head of R&D
 - Artem Nazarenko - developer
 - Semina Anastasiia - prompt engineer
-
-## My task
-
-Create a showcase of styles, on the basis of which photos would be generated. The style is a reference photo, positive and negative prompts, parameters: sampling method, sampling steps, denoising strength and CFG scale.
 
 ## Use-case diagram
 
@@ -28,9 +24,13 @@ AI personality is a Stable Diffusion checkpoint trained on the photos of 1 perso
 
 ![img.png](img/img.png)
 
-## Experiments
+## My task for 1st semester
 
-### Finding the best model for reference generation 
+Create a window display of styles, on the basis of which photos would be generated. The style is a reference photo, positive and negative prompts, parameters: sampling method, sampling steps, denoising strength and CFG scale.
+
+### Experiments
+
+#### Finding the best model for reference generation 
 
 In most cases, epiCRealism, epiCPhotoGasm, and RealDream performed well.
 
@@ -63,7 +63,7 @@ Experiments were carried out for different prompts and looked like this:
 | Reliberate                    | ![img_21.png](img/img_21.png) |
 
 
-### Search for the best prompts
+#### Search for the best prompts
 
 A lot of experiments were conducted on checkpoints trained on different people. I used prompts from https://civitai.com/ and https://lexica.art/, changed them to get a more stable and good result. 
 
@@ -89,7 +89,7 @@ Experiments looks like:
 | ![img_17.png](img/img_17.png)                   | ![img_31.png](img/img_31.png)           | ![img_27.png](img/img_27.png)           | ![img_28.png](img/img_28.png)             | ![img_29.png](img/img_29.png)                 | ![img_30.png](img/img_30.png)             | 
 
 
-### Experiments with human nationality on a reference and enumeration of parameters
+#### Experiments with human nationality on a reference and enumeration of parameters
 
 Checkpoints trained on me and CPO:
 
@@ -111,26 +111,22 @@ All information in naming:
 
 5) if gfpgan was used in preprocessing, then there is a postscript "_gfpgan".
 
-## Results
+### Results
 
-A women's showcase of 23 styles was made: you can see them in the demo [video](https://drive.google.com/file/d/1Lxk5jLsxXJJOfkEsO-K_JyZHNIn1w6vW/view?usp=drive_link).
+A women's window display of 23 styles was made: you can see them in the demo [video](https://drive.google.com/file/d/1Lxk5jLsxXJJOfkEsO-K_JyZHNIn1w6vW/view?usp=drive_link).
 
 Descriptions of generation problems and their solutions can be found in the [presentation](/presentation.pdf).
 
 I came to the conclusion that it is not necessary to use universal template for prompt structure, most often short prompts work more stable and better.
 
-## Next steps
+## My task for 2d semester
 
-Prompts:
-1. Finish the showcase of men's styles
-2. Test styles on different people
-3. Conduct research: extract prompts from the collected dataset of Instagram photos and use them as new styles
+1. Add formal business and college prom style to window display.
+2. Conduct experiments with prompts to change age and obtain more natural skin.
+3. Conduct research: extract prompts from the collected dataset of Instagram photos and use them as new styles.
 
-Model and pipeline:
-1. Try other techniques, for example, like [here](https://photo-maker.github.io/)
+### Results
 
-Product:
-1. Finish the bot: make a more intuitive and user-friendly interface
-2. Choose the right prices for AI personality and photo generation and make a trial period
-3. Test and collect feedback
-4. Engage in marketing and promotion
+Business style
+
+

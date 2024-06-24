@@ -123,8 +123,20 @@ I came to the conclusion that it is not necessary to use universal template for 
 
 :white_check_mark: Add formal business style to window display.
 
+|  <img src="img/man_business.gif"/> | <img src="img/woman_business.gif"/>  |
+|---|---|
+
+
+
 
 :white_check_mark: Conduct experiments with prompts to change age and obtain more natural skin.
+
+![img_34.png](img/img_34.png)
+
+| prompt              | a beautiful man with light hair standing, business style, office | a beautiful ljz man standing, business style, office | a beautiful ljz man standing, business style, office, imperfect skin, pores, unretouched, vellus hair, natural skin |
+|--------------------|-----------------------------------------------------------------|------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+|image | ![0.jpg](img/0.jpg) | ![1.jpg](img/1.jpg)                                  | ![2.jpg](img/2.jpg)                                                                                                 |
+
 
 :arrows_counterclockwise: Add college prom style to window display.
 

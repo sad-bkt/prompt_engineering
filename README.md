@@ -121,12 +121,11 @@ I came to the conclusion that it is not necessary to use universal template for 
 
 ## My task for 2d semester
 
-1. Add formal business and college prom style to window display.
-2. Conduct experiments with prompts to change age and obtain more natural skin.
-3. Conduct research: extract prompts from the collected dataset of Instagram photos and use them as new styles.
-
-### Results
-
-Business style
+:white_check_mark: Add formal business style to window display.
 
 
+:white_check_mark: Conduct experiments with prompts to change age and obtain more natural skin.
+
+:arrows_counterclockwise: Add college prom style to window display.
+
+:arrows_counterclockwise: Conduct research: extract prompts from the collected dataset of Instagram photos and use them as new styles.
